@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17122C5919D4A475009725CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17122C5819D4A475009725CE /* Foundation.framework */; };
+		17122C5B19D4A475009725CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17122C5A19D4A475009725CE /* CoreGraphics.framework */; };
+		17122C5D19D4A475009725CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17122C5C19D4A475009725CE /* UIKit.framework */; };
+		17122C6319D4A475009725CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17122C6119D4A475009725CE /* InfoPlist.strings */; };
+		17122C6519D4A475009725CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17122C6419D4A475009725CE /* main.m */; };
+		17122C6919D4A475009725CE /* ThuyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17122C6819D4A475009725CE /* ThuyAppDelegate.m */; };
+		17122C6B19D4A475009725CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17122C6A19D4A475009725CE /* Images.xcassets */; };
+		17122C7219D4A475009725CE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17122C7119D4A475009725CE /* XCTest.framework */; };
+		17122C7319D4A475009725CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17122C5819D4A475009725CE /* Foundation.framework */; };
+		17122C7419D4A475009725CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17122C5C19D4A475009725CE /* UIKit.framework */; };
+		17122C7C19D4A475009725CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17122C7A19D4A475009725CE /* InfoPlist.strings */; };
+		17122C7E19D4A475009725CE /* ThuysAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17122C7D19D4A475009725CE /* ThuysAppTests.m */; };
+		17122CC019D4AC05009725CE /* NSData+MKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 17122CAD19D4AC05009725CE /* NSData+MKBase64.m */; };
+		17122CC119D4AC05009725CE /* NSDate+RFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = 17122CAF19D4AC05009725CE /* NSDate+RFC1123.m */; };
+		17122CC219D4AC05009725CE /* NSDictionary+RequestEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 17122CB119D4AC05009725CE /* NSDictionary+RequestEncoding.m */; };
+		17122CC319D4AC05009725CE /* NSString+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 17122CB319D4AC05009725CE /* NSString+MKNetworkKitAdditions.m */; };
+		17122CC419D4AC05009725CE /* UIAlertView+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 17122CB519D4AC05009725CE /* UIAlertView+MKNetworkKitAdditions.m */; };
+		17122CC519D4AC05009725CE /* UIImageView+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 17122CB719D4AC05009725CE /* UIImageView+MKNetworkKitAdditions.m */; };
+		17122CC619D4AC05009725CE /* MKNetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 17122CB919D4AC05009725CE /* MKNetworkEngine.m */; };
+		17122CC719D4AC05009725CE /* MKNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 17122CBC19D4AC05009725CE /* MKNetworkOperation.m */; };
+		17122CC819D4AC05009725CE /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 17122CBF19D4AC05009725CE /* Reachability.m */; };
+		17122CCA19D4ACC4009725CE /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17122CC919D4ACC4009725CE /* QuickLook.framework */; };
+		17122CD519D4AE76009725CE /* ThuyBaseServiceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 17122CD419D4AE76009725CE /* ThuyBaseServiceHelper.m */; };
+		17122CD819D4B182009725CE /* ThuyIcelandServiceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 17122CD719D4B182009725CE /* ThuyIcelandServiceHelper.m */; };
+		17122CDF19D4B302009725CE /* ThuyAppStoryboardiPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17122CDE19D4B302009725CE /* ThuyAppStoryboardiPhone.storyboard */; };
+		17122CE119D4B326009725CE /* ThuysAppStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17122CE019D4B326009725CE /* ThuysAppStoryboard_iPad.storyboard */; };
+		17122CE619D4B3F7009725CE /* user_female3-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 17122CE519D4B3F7009725CE /* user_female3-25.png */; };
+		17122CE819D4B405009725CE /* winter-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 17122CE719D4B405009725CE /* winter-25.png */; };
+		17122CEF19D4B89D009725CE /* ThuyAboutMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17122CEE19D4B89D009725CE /* ThuyAboutMeViewController.m */; };
+		171511E819D4D761000A151F /* ThuyLearnAboutIcelandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 171511E719D4D761000A151F /* ThuyLearnAboutIcelandViewController.m */; };
+		171511EB19D4DD03000A151F /* ThuyEarthquake.m in Sources */ = {isa = PBXBuildFile; fileRef = 171511EA19D4DD03000A151F /* ThuyEarthquake.m */; };
+		171511EE19D4DF6A000A151F /* ThuyEarthquakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 171511ED19D4DF6A000A151F /* ThuyEarthquakeViewController.m */; };
+		17584C5619DC3BB6002ED68B /* ThuyHoangResume2014.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 17584C5519DC3BB6002ED68B /* ThuyHoangResume2014.pdf */; };
+		1772A02119D4CC06004F5869 /* megan_fox_17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1772A02019D4CC06004F5869 /* megan_fox_17.jpg */; };
+		1772A02419D4CD2C004F5869 /* ThuyLotteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1772A02319D4CD2C004F5869 /* ThuyLotteryViewController.m */; };
+		1772A02B19D4CEA0004F5869 /* ThuyLottery.m in Sources */ = {isa = PBXBuildFile; fileRef = 1772A02A19D4CEA0004F5869 /* ThuyLottery.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17122C7519D4A475009725CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17122C4D19D4A475009725CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17122C5419D4A475009725CE;
+			remoteInfo = ThuysApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17122C5519D4A475009725CE /* ThuysApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThuysApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17122C5819D4A475009725CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		17122C5A19D4A475009725CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		17122C5C19D4A475009725CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		17122C6019D4A475009725CE /* ThuysApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThuysApp-Info.plist"; sourceTree = "<group>"; };
+		17122C6219D4A475009725CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17122C6419D4A475009725CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17122C6619D4A475009725CE /* ThuysApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThuysApp-Prefix.pch"; sourceTree = "<group>"; };
+		17122C6719D4A475009725CE /* ThuyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThuyAppDelegate.h; sourceTree = "<group>"; };
+		17122C6819D4A475009725CE /* ThuyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThuyAppDelegate.m; sourceTree = "<group>"; };
+		17122C6A19D4A475009725CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		17122C7019D4A475009725CE /* ThuysAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThuysAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17122C7119D4A475009725CE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		17122C7919D4A475009725CE /* ThuysAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThuysAppTests-Info.plist"; sourceTree = "<group>"; };
+		17122C7B19D4A475009725CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17122C7D19D4A475009725CE /* ThuysAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThuysAppTests.m; sourceTree = "<group>"; };
+		17122CAC19D4AC05009725CE /* NSData+MKBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MKBase64.h"; sourceTree = "<group>"; };
+		17122CAD19D4AC05009725CE /* NSData+MKBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MKBase64.m"; sourceTree = "<group>"; };
+		17122CAE19D4AC05009725CE /* NSDate+RFC1123.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+RFC1123.h"; sourceTree = "<group>"; };
+		17122CAF19D4AC05009725CE /* NSDate+RFC1123.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+RFC1123.m"; sourceTree = "<group>"; };
+		17122CB019D4AC05009725CE /* NSDictionary+RequestEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+RequestEncoding.h"; sourceTree = "<group>"; };
+		17122CB119D4AC05009725CE /* NSDictionary+RequestEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+RequestEncoding.m"; sourceTree = "<group>"; };
+		17122CB219D4AC05009725CE /* NSString+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		17122CB319D4AC05009725CE /* NSString+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		17122CB419D4AC05009725CE /* UIAlertView+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		17122CB519D4AC05009725CE /* UIAlertView+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		17122CB619D4AC05009725CE /* UIImageView+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		17122CB719D4AC05009725CE /* UIImageView+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		17122CB819D4AC05009725CE /* MKNetworkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkEngine.h; sourceTree = "<group>"; };
+		17122CB919D4AC05009725CE /* MKNetworkEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKNetworkEngine.m; sourceTree = "<group>"; };
+		17122CBA19D4AC05009725CE /* MKNetworkKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkKit.h; sourceTree = "<group>"; };
+		17122CBB19D4AC05009725CE /* MKNetworkOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkOperation.h; sourceTree = "<group>"; };
+		17122CBC19D4AC05009725CE /* MKNetworkOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKNetworkOperation.m; sourceTree = "<group>"; };
+		17122CBE19D4AC05009725CE /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		17122CBF19D4AC05009725CE /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		17122CC919D4ACC4009725CE /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		17122CD319D4AE76009725CE /* ThuyBaseServiceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThuyBaseServiceHelper.h; path = Universal/Classes/Services/ThuyBaseServiceHelper.h; sourceTree = "<group>"; };
+		17122CD419D4AE76009725CE /* ThuyBaseServiceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThuyBaseServiceHelper.m; path = Universal/Classes/Services/ThuyBaseServiceHelper.m; sourceTree = "<group>"; };
+		17122CD619D4B182009725CE /* ThuyIcelandServiceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThuyIcelandServiceHelper.h; path = Universal/Classes/Services/ThuyIcelandServiceHelper.h; sourceTree = "<group>"; };
+		17122CD719D4B182009725CE /* ThuyIcelandServiceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThuyIcelandServiceHelper.m; path = Universal/Classes/Services/ThuyIcelandServiceHelper.m; sourceTree = "<group>"; };
+		17122CDE19D4B302009725CE /* ThuyAppStoryboardiPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ThuyAppStoryboardiPhone.storyboard; path = iPhone/Storyboards/ThuyAppStoryboardiPhone.storyboard; sourceTree = "<group>"; };
+		17122CE019D4B326009725CE /* ThuysAppStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ThuysAppStoryboard_iPad.storyboard; path = iPad/Storyboards/ThuysAppStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		17122CE519D4B3F7009725CE /* user_female3-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_female3-25.png"; sourceTree = "<group>"; };
+		17122CE719D4B405009725CE /* winter-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "winter-25.png"; sourceTree = "<group>"; };
+		17122CED19D4B89D009725CE /* ThuyAboutMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThuyAboutMeViewController.h; sourceTree = "<group>"; };
+		17122CEE19D4B89D009725CE /* ThuyAboutMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThuyAboutMeViewController.m; sourceTree = "<group>"; };
+		171511E619D4D761000A151F /* ThuyLearnAboutIcelandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThuyLearnAboutIcelandViewController.h; path = Universal/Classes/AboutIceland/ThuyLearnAboutIcelandViewController.h; sourceTree = "<group>"; };
+		171511E719D4D761000A151F /* ThuyLearnAboutIcelandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThuyLearnAboutIcelandViewController.m; path = Universal/Classes/AboutIceland/ThuyLearnAboutIcelandViewController.m; sourceTree = "<group>"; };
+		171511E919D4DD03000A151F /* ThuyEarthquake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThuyEarthquake.h; path = Universal/Classes/DataTypes/ThuyEarthquake.h; sourceTree = "<group>"; };
+		171511EA19D4DD03000A151F /* ThuyEarthquake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThuyEarthquake.m; path = Universal/Classes/DataTypes/ThuyEarthquake.m; sourceTree = "<group>"; };
+		171511EC19D4DF6A000A151F /* ThuyEarthquakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThuyEarthquakeViewController.h; path = Universal/Classes/AboutIceland/ThuyEarthquakeViewController.h; sourceTree = "<group>"; };
+		171511ED19D4DF6A000A151F /* ThuyEarthquakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThuyEarthquakeViewController.m; path = Universal/Classes/AboutIceland/ThuyEarthquakeViewController.m; sourceTree = "<group>"; };
+		17584C5519DC3BB6002ED68B /* ThuyHoangResume2014.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ThuyHoangResume2014.pdf; sourceTree = "<group>"; };
+		1772A02019D4CC06004F5869 /* megan_fox_17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = megan_fox_17.jpg; sourceTree = "<group>"; };
+		1772A02219D4CD2C004F5869 /* ThuyLotteryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThuyLotteryViewController.h; path = Universal/Classes/AboutIceland/ThuyLotteryViewController.h; sourceTree = "<group>"; };
+		1772A02319D4CD2C004F5869 /* ThuyLotteryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThuyLotteryViewController.m; path = Universal/Classes/AboutIceland/ThuyLotteryViewController.m; sourceTree = "<group>"; };
+		1772A02919D4CEA0004F5869 /* ThuyLottery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThuyLottery.h; path = Universal/Classes/DataTypes/ThuyLottery.h; sourceTree = "<group>"; };
+		1772A02A19D4CEA0004F5869 /* ThuyLottery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThuyLottery.m; path = Universal/Classes/DataTypes/ThuyLottery.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17122C5219D4A475009725CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17122CCA19D4ACC4009725CE /* QuickLook.framework in Frameworks */,
+				17122C5B19D4A475009725CE /* CoreGraphics.framework in Frameworks */,
+				17122C5D19D4A475009725CE /* UIKit.framework in Frameworks */,
+				17122C5919D4A475009725CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17122C6D19D4A475009725CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17122C7219D4A475009725CE /* XCTest.framework in Frameworks */,
+				17122C7419D4A475009725CE /* UIKit.framework in Frameworks */,
+				17122C7319D4A475009725CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17122C4C19D4A475009725CE = {
+			isa = PBXGroup;
+			children = (
+				17122C5E19D4A475009725CE /* ThuysApp */,
+				17122C7719D4A475009725CE /* ThuysAppTests */,
+				17122C5719D4A475009725CE /* Frameworks */,
+				17122C5619D4A475009725CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17122C5619D4A475009725CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17122C5519D4A475009725CE /* ThuysApp.app */,
+				17122C7019D4A475009725CE /* ThuysAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17122C5719D4A475009725CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17122CC919D4ACC4009725CE /* QuickLook.framework */,
+				17122C5819D4A475009725CE /* Foundation.framework */,
+				17122C5A19D4A475009725CE /* CoreGraphics.framework */,
+				17122C5C19D4A475009725CE /* UIKit.framework */,
+				17122C7119D4A475009725CE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17122C5E19D4A475009725CE /* ThuysApp */ = {
+			isa = PBXGroup;
+			children = (
+				17122C8719D4A9EA009725CE /* Libraries */,
+				17122C6719D4A475009725CE /* ThuyAppDelegate.h */,
+				17122C6819D4A475009725CE /* ThuyAppDelegate.m */,
+				17122C6A19D4A475009725CE /* Images.xcassets */,
+				17122C8819D4A9F8009725CE /* Universal */,
+				17122C8A19D4AA2F009725CE /* iPhone */,
+				17122C8919D4AA12009725CE /* iPad */,
+				17122C5F19D4A475009725CE /* Supporting Files */,
+			);
+			path = ThuysApp;
+			sourceTree = "<group>";
+		};
+		17122C5F19D4A475009725CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17122C6019D4A475009725CE /* ThuysApp-Info.plist */,
+				17122C6119D4A475009725CE /* InfoPlist.strings */,
+				17122C6419D4A475009725CE /* main.m */,
+				17122C6619D4A475009725CE /* ThuysApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17122C7719D4A475009725CE /* ThuysAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				17122C7D19D4A475009725CE /* ThuysAppTests.m */,
+				17122C7819D4A475009725CE /* Supporting Files */,
+			);
+			path = ThuysAppTests;
+			sourceTree = "<group>";
+		};
+		17122C7819D4A475009725CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17122C7919D4A475009725CE /* ThuysAppTests-Info.plist */,
+				17122C7A19D4A475009725CE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17122C8719D4A9EA009725CE /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				17122CAA19D4AC05009725CE /* MKNetworkKit */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		17122C8819D4A9F8009725CE /* Universal */ = {
+			isa = PBXGroup;
+			children = (
+				17122CCC19D4ADF7009725CE /* Classes */,
+				17122CDB19D4B278009725CE /* Resources */,
+			);
+			name = Universal;
+			sourceTree = "<group>";
+		};
+		17122C8919D4AA12009725CE /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				17122CDA19D4B254009725CE /* Storyboards */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		17122C8A19D4AA2F009725CE /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				17122CD919D4B247009725CE /* Storyboards */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		17122CAA19D4AC05009725CE /* MKNetworkKit */ = {
+			isa = PBXGroup;
+			children = (
+				17122CAB19D4AC05009725CE /* Categories */,
+				17122CB819D4AC05009725CE /* MKNetworkEngine.h */,
+				17122CB919D4AC05009725CE /* MKNetworkEngine.m */,
+				17122CBA19D4AC05009725CE /* MKNetworkKit.h */,
+				17122CBB19D4AC05009725CE /* MKNetworkOperation.h */,
+				17122CBC19D4AC05009725CE /* MKNetworkOperation.m */,
+				17122CBD19D4AC05009725CE /* Reachability */,
+			);
+			path = MKNetworkKit;
+			sourceTree = "<group>";
+		};
+		17122CAB19D4AC05009725CE /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				17122CAC19D4AC05009725CE /* NSData+MKBase64.h */,
+				17122CAD19D4AC05009725CE /* NSData+MKBase64.m */,
+				17122CAE19D4AC05009725CE /* NSDate+RFC1123.h */,
+				17122CAF19D4AC05009725CE /* NSDate+RFC1123.m */,
+				17122CB019D4AC05009725CE /* NSDictionary+RequestEncoding.h */,
+				17122CB119D4AC05009725CE /* NSDictionary+RequestEncoding.m */,
+				17122CB219D4AC05009725CE /* NSString+MKNetworkKitAdditions.h */,
+				17122CB319D4AC05009725CE /* NSString+MKNetworkKitAdditions.m */,
+				17122CB419D4AC05009725CE /* UIAlertView+MKNetworkKitAdditions.h */,
+				17122CB519D4AC05009725CE /* UIAlertView+MKNetworkKitAdditions.m */,
+				17122CB619D4AC05009725CE /* UIImageView+MKNetworkKitAdditions.h */,
+				17122CB719D4AC05009725CE /* UIImageView+MKNetworkKitAdditions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		17122CBD19D4AC05009725CE /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				17122CBE19D4AC05009725CE /* Reachability.h */,
+				17122CBF19D4AC05009725CE /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		17122CCB19D4ACF2009725CE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				17122CD319D4AE76009725CE /* ThuyBaseServiceHelper.h */,
+				17122CD419D4AE76009725CE /* ThuyBaseServiceHelper.m */,
+				17122CD619D4B182009725CE /* ThuyIcelandServiceHelper.h */,
+				17122CD719D4B182009725CE /* ThuyIcelandServiceHelper.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		17122CCC19D4ADF7009725CE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1772A02819D4CE62004F5869 /* DataTypes */,
+				17122CEC19D4B879009725CE /* AboutThuy */,
+				17122CE319D4B367009725CE /* AboutIceland */,
+				17122CCB19D4ACF2009725CE /* Services */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		17122CD919D4B247009725CE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				17122CDE19D4B302009725CE /* ThuyAppStoryboardiPhone.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		17122CDA19D4B254009725CE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				17122CE019D4B326009725CE /* ThuysAppStoryboard_iPad.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		17122CDB19D4B278009725CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				17584C5519DC3BB6002ED68B /* ThuyHoangResume2014.pdf */,
+				17122CE419D4B3D4009725CE /* images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		17122CE319D4B367009725CE /* AboutIceland */ = {
+			isa = PBXGroup;
+			children = (
+				1772A02219D4CD2C004F5869 /* ThuyLotteryViewController.h */,
+				1772A02319D4CD2C004F5869 /* ThuyLotteryViewController.m */,
+				171511E619D4D761000A151F /* ThuyLearnAboutIcelandViewController.h */,
+				171511E719D4D761000A151F /* ThuyLearnAboutIcelandViewController.m */,
+				171511EC19D4DF6A000A151F /* ThuyEarthquakeViewController.h */,
+				171511ED19D4DF6A000A151F /* ThuyEarthquakeViewController.m */,
+			);
+			name = AboutIceland;
+			sourceTree = "<group>";
+		};
+		17122CE419D4B3D4009725CE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1772A02019D4CC06004F5869 /* megan_fox_17.jpg */,
+				17122CE719D4B405009725CE /* winter-25.png */,
+				17122CE519D4B3F7009725CE /* user_female3-25.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		17122CEC19D4B879009725CE /* AboutThuy */ = {
+			isa = PBXGroup;
+			children = (
+				17122CED19D4B89D009725CE /* ThuyAboutMeViewController.h */,
+				17122CEE19D4B89D009725CE /* ThuyAboutMeViewController.m */,
+			);
+			name = AboutThuy;
+			sourceTree = "<group>";
+		};
+		1772A02819D4CE62004F5869 /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				1772A02919D4CEA0004F5869 /* ThuyLottery.h */,
+				1772A02A19D4CEA0004F5869 /* ThuyLottery.m */,
+				171511E919D4DD03000A151F /* ThuyEarthquake.h */,
+				171511EA19D4DD03000A151F /* ThuyEarthquake.m */,
+			);
+			name = DataTypes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17122C5419D4A475009725CE /* ThuysApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17122C8119D4A475009725CE /* Build configuration list for PBXNativeTarget "ThuysApp" */;
+			buildPhases = (
+				17122C5119D4A475009725CE /* Sources */,
+				17122C5219D4A475009725CE /* Frameworks */,
+				17122C5319D4A475009725CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThuysApp;
+			productName = ThuysApp;
+			productReference = 17122C5519D4A475009725CE /* ThuysApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17122C6F19D4A475009725CE /* ThuysAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17122C8419D4A475009725CE /* Build configuration list for PBXNativeTarget "ThuysAppTests" */;
+			buildPhases = (
+				17122C6C19D4A475009725CE /* Sources */,
+				17122C6D19D4A475009725CE /* Frameworks */,
+				17122C6E19D4A475009725CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17122C7619D4A475009725CE /* PBXTargetDependency */,
+			);
+			name = ThuysAppTests;
+			productName = ThuysAppTests;
+			productReference = 17122C7019D4A475009725CE /* ThuysAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17122C4D19D4A475009725CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Thuy;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Thuy Hoang";
+				TargetAttributes = {
+					17122C5419D4A475009725CE = {
+						DevelopmentTeam = ADUSNHH3AZ;
+					};
+					17122C6F19D4A475009725CE = {
+						TestTargetID = 17122C5419D4A475009725CE;
+					};
+				};
+			};
+			buildConfigurationList = 17122C5019D4A475009725CE /* Build configuration list for PBXProject "ThuysApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17122C4C19D4A475009725CE;
+			productRefGroup = 17122C5619D4A475009725CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17122C5419D4A475009725CE /* ThuysApp */,
+				17122C6F19D4A475009725CE /* ThuysAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17122C5319D4A475009725CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17122CDF19D4B302009725CE /* ThuyAppStoryboardiPhone.storyboard in Resources */,
+				17122CE819D4B405009725CE /* winter-25.png in Resources */,
+				17122C6319D4A475009725CE /* InfoPlist.strings in Resources */,
+				17122C6B19D4A475009725CE /* Images.xcassets in Resources */,
+				1772A02119D4CC06004F5869 /* megan_fox_17.jpg in Resources */,
+				17122CE619D4B3F7009725CE /* user_female3-25.png in Resources */,
+				17122CE119D4B326009725CE /* ThuysAppStoryboard_iPad.storyboard in Resources */,
+				17584C5619DC3BB6002ED68B /* ThuyHoangResume2014.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17122C6E19D4A475009725CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17122C7C19D4A475009725CE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17122C5119D4A475009725CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17122CD519D4AE76009725CE /* ThuyBaseServiceHelper.m in Sources */,
+				171511EE19D4DF6A000A151F /* ThuyEarthquakeViewController.m in Sources */,
+				17122CC319D4AC05009725CE /* NSString+MKNetworkKitAdditions.m in Sources */,
+				17122CD819D4B182009725CE /* ThuyIcelandServiceHelper.m in Sources */,
+				17122CC219D4AC05009725CE /* NSDictionary+RequestEncoding.m in Sources */,
+				17122C6919D4A475009725CE /* ThuyAppDelegate.m in Sources */,
+				17122CC819D4AC05009725CE /* Reachability.m in Sources */,
+				171511EB19D4DD03000A151F /* ThuyEarthquake.m in Sources */,
+				17122C6519D4A475009725CE /* main.m in Sources */,
+				17122CC019D4AC05009725CE /* NSData+MKBase64.m in Sources */,
+				17122CC119D4AC05009725CE /* NSDate+RFC1123.m in Sources */,
+				1772A02419D4CD2C004F5869 /* ThuyLotteryViewController.m in Sources */,
+				17122CC719D4AC05009725CE /* MKNetworkOperation.m in Sources */,
+				17122CEF19D4B89D009725CE /* ThuyAboutMeViewController.m in Sources */,
+				171511E819D4D761000A151F /* ThuyLearnAboutIcelandViewController.m in Sources */,
+				17122CC519D4AC05009725CE /* UIImageView+MKNetworkKitAdditions.m in Sources */,
+				17122CC619D4AC05009725CE /* MKNetworkEngine.m in Sources */,
+				17122CC419D4AC05009725CE /* UIAlertView+MKNetworkKitAdditions.m in Sources */,
+				1772A02B19D4CEA0004F5869 /* ThuyLottery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17122C6C19D4A475009725CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17122C7E19D4A475009725CE /* ThuysAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17122C7619D4A475009725CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17122C5419D4A475009725CE /* ThuysApp */;
+			targetProxy = 17122C7519D4A475009725CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17122C6119D4A475009725CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17122C6219D4A475009725CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		17122C7A19D4A475009725CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17122C7B19D4A475009725CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17122C7F19D4A475009725CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17122C8019D4A475009725CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17122C8219D4A475009725CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Thuy Hoang (828HBJ27DV)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThuysApp/ThuysApp-Prefix.pch";
+				INFOPLIST_FILE = "ThuysApp/ThuysApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-fobjc-arc",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		17122C8319D4A475009725CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThuysApp/ThuysApp-Prefix.pch";
+				INFOPLIST_FILE = "ThuysApp/ThuysApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-fobjc-arc",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		17122C8519D4A475009725CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThuysApp.app/ThuysApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThuysApp/ThuysApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ThuysAppTests/ThuysAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		17122C8619D4A475009725CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThuysApp.app/ThuysApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThuysApp/ThuysApp-Prefix.pch";
+				INFOPLIST_FILE = "ThuysAppTests/ThuysAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17122C5019D4A475009725CE /* Build configuration list for PBXProject "ThuysApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17122C7F19D4A475009725CE /* Debug */,
+				17122C8019D4A475009725CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17122C8119D4A475009725CE /* Build configuration list for PBXNativeTarget "ThuysApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17122C8219D4A475009725CE /* Debug */,
+				17122C8319D4A475009725CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17122C8419D4A475009725CE /* Build configuration list for PBXNativeTarget "ThuysAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17122C8519D4A475009725CE /* Debug */,
+				17122C8619D4A475009725CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17122C4D19D4A475009725CE /* Project object */;
+}
